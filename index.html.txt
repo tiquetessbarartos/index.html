@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo Nacional - Ofertas Especiales</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100">
+  <div class="relative min-h-screen flex items-center justify-center text-center">
+    <!-- Imagen de fondo -->
+    <img src="/avion.jpg" alt="Avión de vuelo comercial" class="absolute inset-0 w-full h-full object-cover opacity-50">
+
+    <!-- Contenido -->
+    <div class="relative z-10 p-6 bg-white bg-opacity-75 rounded-lg shadow-lg max-w-lg">
+      <h1 class="text-4xl font-bold text-blue-700 mb-4">Destinos Nacionales</h1>
+      <p class="text-lg text-gray-700 mb-4">Experiencia 5 estrellas</p>
+      <p class="text-2xl font-semibold text-gray-900 mb-4">Oferta Especial</p>
+      <p class="text-3xl font-bold text-blue-600 mb-4">Desde $49.900</p>
+      <ul class="text-gray-700 mb-6">
+        <li>Tarifa final por trayecto</li>
+        <li>Equipaje incluido</li>
+        <li>Cambios flexibles</li>
+        <li>Asistencia 24/7</li>
+        <li>Mejor precio</li>
+        <li>Disponibilidad inmediata</li>
+        <li>Múltiples destinos</li>
+      </ul>
+      <a href="https://latamvuelaconpromos.com" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition">Comprar Ahora</a>
+    </div>
+  </div>
+</body>
+</html>
